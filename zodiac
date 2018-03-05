@@ -1,0 +1,28 @@
+print "Want to know your zodiac sign?"
+day = int(input("Input date of birth : "))
+month = input("Input month of birth : ")
+if month == "december":
+ zodiac = "Sagittarius!" if day < 22 else "capricorn!" 
+elif month == "january":
+ zodiac = "Capricorn!" if day < 20 else "aquarius!"
+elif month == "february":
+ zodiac = "Aquarius!" if day < 19 else "pisces!"
+elif month == "march":
+ zodiac = "Pisces!" if day < 21 else "aries!"
+elif month == "april":
+ zodiac = "Aries!" if day < 20 else "taurus!"
+elif month == "may":
+ zodiac = "Taurus!" if day < 21 else "gemini!"
+elif month == "june":
+ zodiac = "Gemini!" if day < 21 else "cancer!"
+elif month == "july":
+ zodiac = "Cancer!" if day < 23 else "leo!"
+elif month == "august":
+ zodiac = "Leo!" if day < 23 else "virgo!"
+elif month == "september":
+ zodiac = "Virgo!" if day < 23 else "libra!"
+elif month == "october":
+ zodiac = "Libra!" if day < 23 else "scorpio!"
+elif month == "november":
+ zodiac = "scorpio!" if day < 22 else "sagittarius!"
+print "Your sign is", zodiac, ":)"
